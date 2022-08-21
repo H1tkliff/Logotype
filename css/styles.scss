@@ -1,0 +1,57 @@
+@import url(nullstyles.css);
+@import url(fonts.css);
+@import url(jquery.fancybox.min.css);
+@import url(/css/slick.css);
+@import url(/css/jquery.formstyler.css);
+@import url(/css/media.css);
+@import url(/css/header.css);
+@import url(/css/slider.css);
+@import url(/css/services.css);
+@import url(/css/about.css);
+@import url(/css/form.css);
+@import url(/css/advantages.css);
+@import url(/css/news.css);
+@import url(/css/footer.css);
+// @import url(/css/jquery.formstyler.theme.css);
+
+
+a{
+    display: inline-block;
+}
+$max-width: 1170px;
+
+@font-face {
+    font-family: "PT Serif Regular";
+    src: url(/fonts/pt-serif-v17-latin-regular.ttf);
+}
+@font-face {
+    font-family: "PT Serif Bold";
+    src: url(/fonts/pt-serif-v17-latin-700.ttf);
+}
+@font-face {
+    font-family: "PT Serif Medium";
+    src: url(/fonts/roboto-v30-latin-500.ttf);
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(/fonts/roboto-v30-latin-regular.ttf);
+}
+$fontfamilyPTSerifRegular: "PT Serif Regular";
+$fontfamilyPTSerifBold: "PT Serif Bold";
+$fontfamilyPTSerifMedium: "PT Serif Medium";
+$fontfamilyRobotoRegular: "Roboto Regular";
+
+
+
+.container{
+max-width: $max-width;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+
+body{
+    font-family: $fontfamilyPTSerifRegular;
+    color: #5e5e5e;
+}
+

@@ -1,0 +1,192 @@
+@media (max-width: 1156px){
+    .services__items{
+        display: block !important;
+    }
+    .services__item{
+        max-width: 80% !important;
+        min-height: 330px !important;
+        margin: 30px auto !important;
+
+    }
+    .form__inner{
+        background-image: none !important;
+    }
+    .news__inner{
+        display: block !important;
+    }
+    .news__slider{
+        max-width: 100% !important;
+        margin-bottom: 90px;
+    }
+    .news__blog{
+        max-width: 100% !important;
+        display: block !important;
+        margin-bottom: 30px !important;
+    }
+    .news__blog::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .news__images{
+        float: left;
+        margin-right: 50px;
+    }
+    .news{
+        padding-bottom: 60px;
+    }
+}
+@media (max-width: 1050px){
+    .footer__inner{
+        display: block !important;
+    }
+    .footer__map{
+        max-width: 100% !important;
+    }
+    .footer__info{
+        max-width: 465px !important;
+        margin-bottom: 25px !important;
+    }
+}
+@media (max-width: 900px){
+    .slider .slick-btn{
+        display: none;
+    }
+    .services__top,
+    .news__top{
+        display: block !important;
+
+    }
+    .services__title-box,
+    .form__title-box,
+    .news__title-box{
+        padding-left: 0px !important;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .services__title-box::before,
+    .form__title-box::before,
+    .news__title-box::before{
+        display: none;
+    }
+    .services__btn,
+    .news__btn{
+        text-align: center;
+    }
+    .form__box-inner{
+        display: block !important;
+    }
+    .form__box-left{
+        max-width: 100% !important;
+    }
+    .form__box-right{
+        max-width: 100% !important;
+    }
+    .form__box-inner .jq-selectbox__select{
+        margin-bottom: 10px !important;
+    }
+    .form{
+        padding-bottom: 25px;
+    }
+    .advantages__inner{
+        display: block !important;
+    }
+    .advantages-item{
+        max-width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+}
+@media (max-width: 700px){
+    .header__btn{
+        // float: none !important;
+        // float: right !important;
+        
+    }
+    .footer__info .header__btn::before{
+        display: block;
+    }
+    .header__contacts{
+        text-align: center;
+    }
+    .header__btn-menu{
+        display: block !important;
+    }
+    .menu ul{
+        display: none;
+        position: absolute !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin-top: 20px;
+        z-index: 50;
+    }
+    .menu li{
+        display: block !important;
+        text-align: center;
+    }
+    .menu li+li{
+        padding-left: 0px !important;
+    }
+    .menu a{
+        display: block !important;
+        background-color: #ffc222 !important;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+    
+}
+@media (max-width: 600px){
+    .services__item{
+        max-width: 100% !important;
+        min-height: 375px !important;
+        margin: 30px auto !important;
+
+    }
+    .header__btn{
+        float: none !important;
+    }
+}
+@media (max-width: 540px){
+    .news__slider{
+        padding: 50px 15px 25px 25px !important;
+    }
+    .news__slider:before{
+        left: 25px !important;
+    }
+    .news__slider-inner .slick-next{
+        right: -20px !important;
+        bottom: -90px !important;
+    }
+    .news__slider-inner .slick-prev{
+        right: 35px !important;
+        bottom: -90px !important;
+    }
+    .news__images{
+        float: none !important;
+    }
+}
+@media (max-width: 414px){
+    .slider__title{
+        font-size: 24px !important;
+    }
+    .slider__text{
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 400px){
+    .advantages-item{
+        padding: 0!important;
+    }
+}
+
+@media (max-width: 375px){
+    .header__email{
+        padding-right: 30px !important;
+    }
+}
+
+@media (min-width: 700px){
+    .menu ul{
+        // display: block !important;
+    }
+}

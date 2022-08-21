@@ -1,0 +1,77 @@
+@import url(fonts.css);
+@import url(jquery.fancybox.min.css);
+@import url(/css/slick.css);
+@import url(/css/jquery.formstyler.css);
+
+@font-face {
+    font-family: "PT Serif Regular";
+    src: url(/fonts/pt-serif-v17-latin-regular.ttf);
+}
+@font-face {
+    font-family: "PT Serif Bold";
+    src: url(/fonts/pt-serif-v17-latin-700.ttf);
+}
+@font-face {
+    font-family: "PT Serif Medium";
+    src: url(/fonts/roboto-v30-latin-500.ttf);
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(/fonts/roboto-v30-latin-regular.ttf);
+}
+$fontfamilyPTSerifRegular: "PT Serif Regular";
+$fontfamilyPTSerifBold: "PT Serif Bold";
+$fontfamilyPTSerifMedium: "PT Serif Medium";
+$fontfamilyRobotoRegular: "Roboto Regular";
+
+.advantages{
+    padding: 55px 0px 40px;
+    background-image: url(/img/png/advantages-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 285px;
+    background-size: cover;
+}
+.advantages__inner{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.advantages-item{
+    max-width: 340px;
+    padding: 0px 20px;
+}
+.advantages__title{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: $fontfamilyRobotoRegular;
+    padding: 60px 0px 15px;
+    position: relative;
+}
+.advantages__title::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffc222;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.advantages__title::after{
+    content: "\f00c";
+    font-family: 'icomoon';
+    font-size: 14px;
+    position: absolute;
+    top: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.advantages__text{
+    line-height: 24px;
+    color: #d3d2d2;
+    letter-spacing: 0.1px;
+}

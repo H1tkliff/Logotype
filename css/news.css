@@ -1,0 +1,132 @@
+@import url(fonts.css);
+@import url(jquery.fancybox.min.css);
+@import url(/css/slick.css);
+@import url(/css/jquery.formstyler.css);
+@font-face {
+  font-family: "PT Serif Regular";
+  src: url(/fonts/pt-serif-v17-latin-regular.ttf);
+}
+@font-face {
+  font-family: "PT Serif Bold";
+  src: url(/fonts/pt-serif-v17-latin-700.ttf);
+}
+@font-face {
+  font-family: "PT Serif Medium";
+  src: url(/fonts/roboto-v30-latin-500.ttf);
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(/fonts/roboto-v30-latin-regular.ttf);
+}
+.news {
+  padding: 55px 0px 110px;
+  background-color: #f9f9f9;
+}
+
+.news__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__slider {
+  max-width: 555px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 5px 15.4px rgba(128, 127, 127, 0.13);
+  padding: 60px 35px 45px 70px;
+  position: relative;
+}
+
+.news__slider::before {
+  content: "\f10e";
+  font-family: "icomoon";
+  position: absolute;
+  top: 0;
+  left: 70px;
+  color: #fff;
+  font-size: 16px;
+  width: 65px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #ffc222;
+}
+
+.news__blog {
+  max-width: 260px;
+  width: 100%;
+}
+
+.news__images {
+  position: relative;
+}
+
+.news__date {
+  position: absolute;
+  background-color: #ffc222;
+  height: 55px;
+  width: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 700px;
+  top: 0px;
+  left: 10px;
+}
+
+.news__blog-title {
+  font-size: 16px;
+  font-weight: 500px;
+  font-family: "Roboto Regular";
+  color: #242424;
+  letter-spacing: 0.5px;
+  padding: 12px 0px;
+}
+
+.news__blog-text {
+  letter-spacing: 0.1px;
+  color: #5e5e5e;
+}
+
+.news__slider-title {
+  font-size: 18px;
+  line-height: 24px;
+  color: #242424;
+  font-weight: 500;
+  font-family: "Roboto Regular";
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+.news__slider-text {
+  margin-bottom: 30px;
+}
+
+.news__slider-author {
+  letter-spacing: 0.1px;
+  color: #212020;
+  font-weight: 500;
+  font-family: "Roboto Regular";
+}
+
+.news__slider-inner .slick-btn {
+  top: auto;
+  bottom: -120px;
+}
+
+.news__slider-inner .slick-next {
+  right: -35px;
+}
+
+.news__slider-inner .slick-prev {
+  right: 20px;
+  left: auto;
+}
+
+.news__slider-inner .slick-disabled {
+  border-color: #dadada;
+}
+
+.news__slider-inner .slick-disabled::before {
+  color: #dadada;
+}/*# sourceMappingURL=news.css.map */

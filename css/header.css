@@ -1,0 +1,122 @@
+@import url(fonts.css);
+@import url(jquery.fancybox.min.css);
+@import url(/css/slick.css);
+@import url(/css/jquery.formstyler.css);
+@font-face {
+  font-family: "PT Serif Regular";
+  src: url(/fonts/pt-serif-v17-latin-regular.ttf);
+}
+@font-face {
+  font-family: "PT Serif Bold";
+  src: url(/fonts/pt-serif-v17-latin-700.ttf);
+}
+@font-face {
+  font-family: "PT Serif Medium";
+  src: url(/fonts/roboto-v30-latin-500.ttf);
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(/fonts/roboto-v30-latin-regular.ttf);
+}
+.header {
+  font-family: "Roboto Regular";
+}
+
+.header__top {
+  background-color: #303030;
+}
+
+.header__btn {
+  float: right;
+  line-height: 36px;
+  color: #1b1b1b;
+  background-color: #ffc222;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 4px;
+  padding-left: 50px;
+  font-size: 16px;
+  position: relative;
+}
+
+.header__btn:before {
+  content: "\f0b1";
+  font-family: "icomoon";
+  position: absolute;
+  left: 22px;
+  color: 1b1b1b;
+}
+
+.header__contacts::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.header__phone,
+.header__email {
+  color: #cbcacb;
+  letter-spacing: 0.25px;
+  line-height: 45px;
+  position: relative;
+}
+
+.header__phone {
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.header__phone:before {
+  content: "\f095";
+  font-family: "icomoon";
+  position: absolute;
+  left: 0;
+  color: #ffc222;
+}
+
+.header__email {
+  padding-left: 24px;
+}
+
+.header__email:before {
+  content: "\f003";
+  font-family: "icomoon";
+  position: absolute;
+  left: 0;
+  color: #ffc222;
+}
+
+.header__content {
+  padding-top: 34px;
+  padding-bottom: 23px;
+}
+
+.header__content-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  color: #323232;
+  font-size: 16px;
+  line-height: 36px;
+  border: 1px solid transparent;
+  padding: 0px 16px;
+  transition: all 0.3s;
+}
+
+.menu a:hover {
+  border-color: #ffc222;
+}
+
+.menu li + li {
+  padding-left: 10px;
+}
+
+#modal {
+  display: none;
+}/*# sourceMappingURL=header.css.map */
